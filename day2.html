@@ -8,20 +8,45 @@
         #line2{
             background-color: green;font-family: 'Times New Roman', Times, serif;font-size: larger;
         }
+        ol,p{
+            font-size: 20px;
+        }
+        *{
+            margin: 20;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        #line3{
+            color: rgb(255, 30, 0);
+        }
+        .line1{
+            background-color: aquamarine;
+        }
+
     </style>
 
-
+  
 </head>
 <body>
     <h1 style="background-color: aqua;">creating html doc with two lines to use css</h1>
     <br>
     <ol>
-       <li style="color: green;font-style: italic;font-family: Arial, Helvetica, sans-serif;">this line is for inline css</li> 
+        <li> this line is for <span class="line1">inline css</span></li>
         <br>
-        <li id="line2"><p>this line is for internal css</li></p>
+        <li id="line2"><p>this line is for <span id="line3">internal css</span></li></p>
         
     </ol>
-   
+    <br>
+   <p>this line is for external css , use background color </p>
+   <p>this line is for external css, use font size</p>
+   <p>this line is for external css, use font color</p>
+   <p>this line is for external css, use font family</p>
+
+   <form action="">
+    <input type="text">
+    <input type="password" name="">
+   </form>
 
 </body>
 </html>
