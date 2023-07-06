@@ -1,13 +1,40 @@
+header{
+    background-color: rgba(109, 136, 136, 0.733);
+}
+
+
+
 .container{
     display: flex;
+    background-image: url();
+    background-size: cover;
+    background-position: center;
+}
+
+h3{
+    text-decoration: underline;
 }
 .blog{
     flex: 1;
     border: 5px solid;
     padding: 30px;
-    margin: 10px;
+     margin: 10px;
+    box-shadow: 10px 10px 10px;
+    text-decoration: underline;
+}
+button{
+    background-color: rgb(75, 97, 97);
 }
 .blog{
-    background-color: aqua;
+   background-color: aqua;
     text-align:center;
+    
+}
+.sit{
+    background-color: rgb(151, 88, 88);
+    text-decoration: solid;
+    border: 1px solid yellow; 
+    display: block;
+    height: 30px;
+    margin: 20px;
 }
