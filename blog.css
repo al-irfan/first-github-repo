@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+}
+.blog{
+    flex: 1;
+    border: 5px solid;
+    padding: 30px;
+    margin: 10px;
+}
+.blog{
+    background-color: aqua;
+    text-align:center;
+}
